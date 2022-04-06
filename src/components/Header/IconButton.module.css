@@ -1,0 +1,10 @@
+.icon-container:hover{
+    background: var(--search-input-color);
+    
+}
+
+.icon-container{
+    padding: 12px;
+    border-radius: 50%;
+    color: var(--dark-icon-color);
+}

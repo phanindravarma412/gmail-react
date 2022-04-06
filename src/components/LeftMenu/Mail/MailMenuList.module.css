@@ -1,0 +1,28 @@
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  padding: 0;
+  margin: 0;
+}
+
+.expanded {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0 0.4rem 2rem;
+  font-size: 1.2rem;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: rgb(83, 82, 82);
+}
+
+.expanded p{
+    padding-left: 20px;
+}
+
+.expanded:hover {
+  background: #e8eaed;
+}

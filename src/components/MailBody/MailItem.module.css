@@ -1,0 +1,125 @@
+.mail {
+  background: rgb(245 247 247);
+  display: flex;
+  padding: 1rem;
+  /* width: ; */
+  align-items: center;
+  border-bottom: 0.001px solid rgb(185, 184, 184);
+  font-size: 20px;
+}
+
+.icon {
+  color: rgb(173, 173, 173);
+}
+
+.mail:hover .icon {
+  color: rgb(87, 87, 87);
+}
+.name {
+  display: flex;
+  align-items: center;
+  width: 14rem;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-right: 1.6rem;
+}
+
+.checkbox-wrapper:hover .checkbox-wrapper label:before {
+  border: 0.09em solid #575757;
+}
+
+
+.checkbox-wrapper input[type="checkbox"]:hover + label::before {
+  border: 0.14em solid rgb(39, 39, 39);
+}
+
+.checkbox-wrapper label {
+  cursor: pointer;
+  display: flex;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-wrapper label::before {
+  content: "";
+  width: 1em;
+  height: 1em;
+  border: 0.09em solid #8c8d8d;
+  border-radius: 0.15em;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked + label::before{
+  content: '\002714';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name p {
+  margin-left: 1.6rem;
+  color: #202124;
+}
+
+.message {
+  flex: 1;
+  width: 200px;
+  margin-left: 1rem;
+}
+
+.message p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #586368;
+}
+
+.message p span {
+  color: #202120;
+}
+
+.starred {
+  color: gold;
+}
+
+.mail:hover {
+  box-shadow: 0 0 10px #a2a2a2;
+}
+.mail:hover .checkbox-wrapper label:before {
+  border: 0.09em solid #011616;
+}
+
+.options {
+  display: none;
+  color: #586368;
+}
+
+.options .option {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.mail:hover .options {
+  display: block;
+}
+.option:hover {
+  background: #bdbcbc;
+}
+
+.date {
+  display: block;
+  font-size: 16px;
+  color: #586368;
+  margin-left: 1rem;
+}
+
+.mail:hover .date {
+  display: none;
+}

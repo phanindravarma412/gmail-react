@@ -1,0 +1,25 @@
+:root {
+  --border-color: rgb(221, 221, 221);
+  --dark-icon-color: rgb(100, 100, 100);
+  --search-input-color: #f1f3f4;
+  --red-color: #d93025;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

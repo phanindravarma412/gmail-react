@@ -1,0 +1,23 @@
+.compose{
+    display: flex;
+    color: var(--red-color);
+    padding: 1.2rem 1.6rem;
+    align-items: center;
+    border-radius: 40px;
+    box-shadow: 0 0 8px #808080;
+    justify-content: space-evenly  ;
+    width: 12rem;
+    margin: 1rem 0 1rem 1rem;
+    align-self: left;
+
+}
+
+.compose:hover{
+    box-shadow: 0 0 12px grey;
+}
+
+.compose p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-left: 1rem;
+}

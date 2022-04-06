@@ -1,0 +1,26 @@
+.menu-item {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.menu-item .tab {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem 0 0.4rem 2rem;
+  font-size: 1.2rem;
+
+  color: rgb(83, 82, 82);
+}
+
+.menu-item .tab p {
+  padding-left: 20px;
+}
+
+.menu-item:hover {
+  background: #e8eaed;
+}
+
+.menu-item:hover .tab {
+  color: rgb(48, 47, 47) !important;
+  font-weight: 600;
+}

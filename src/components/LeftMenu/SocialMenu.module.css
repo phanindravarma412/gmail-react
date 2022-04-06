@@ -1,0 +1,29 @@
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+}
+
+.title p {
+  padding-left: 0.55rem;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.icon {
+  padding: 10px 6px;
+}
+
+.icon:hover {
+  background-color: rgb(211, 211, 211);
+}
+.icon-active {
+  background-color: rgb(211, 211, 211);
+  padding: 10px 6px;
+}
